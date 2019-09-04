@@ -1,0 +1,26 @@
+{
+	"name": "list-app",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel public/index.html",
+		"format": "prettier \"src/**/*.{html,js,jsx}\"  --write",
+		"build": "parcel build public/index.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0"
+	},
+	"devDependencies": {
+		"eslint": "^6.3.0",
+		"eslint-config-prettier": "^6.2.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.14.3",
+		"eslint-plugin-react-hooks": "^2.0.1",
+		"parcel-bundler": "^1.12.3",
+		"tailwindcss": "^1.1.2"
+	}
+}
